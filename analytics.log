@@ -1,0 +1,218 @@
+[12-02 11:49:30:INFO oracle.apiplatform.analytics.agent.OcsgAnalyticsCoordinator] init(): Initializing AgentTaskRunner
+
+[12-02 11:49:30:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] run(): Unpacking analytics home...
+
+[12-02 11:49:30:INFO oracle.apiplatform.analytics.agent.common.BufferedWriterController] processUpdatedProperties(): Reinitializing BufferedWriter.
+
+[12-02 11:49:30:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for LogFileCopyTruncater detected.
+
+[12-02 11:49:30:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for LogFilePurger detected.
+
+[12-02 11:49:30:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for Adr2LogFilePurger detected.
+
+[12-02 11:49:30:INFO oracle.apiplatform.analytics.agent.OcsgMetricsConsumerController] processUpdatedProperties(): Updated properties for OcsgMetricsCollector detected.  Updating JMSListener.
+
+[12-02 11:49:30:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for OcsgManagementCallsFactory detected.
+
+[12-02 11:49:30:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] processUpdatedProperties(): Updated properties for LogstashProcessController detected.  Triggering start/restart.
+
+[12-02 11:49:30:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] updateProperties(): Rescheduling timer task for AgentTaskRunner to: 15000
+
+[12-02 11:49:30:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] run(): ConfigManager has updated all required properties.  Running all agent tasks...
+
+[12-02 11:49:30:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] startLogstash(): Starting Logstash...
+
+[12-02 11:49:31:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] startLogstash(): Logstash started at 2022-12-02T23:49:31.522-0600: java.lang.UNIXProcess@2f062965
+
+[12-03 12:08:29:INFO oracle.apiplatform.analytics.agent.OcsgAnalyticsCoordinator] cleanup(): Stopping AgentTaskRunner
+
+[12-03 12:08:29:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] stopRunner(): cancelled AgentTaskRunner timer task
+
+[12-03 12:08:29:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] stopRunner(): calling doStop() on all AgentTasks
+
+[12-03 12:08:29:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] doStop(): Killing _logstashProcess=java.lang.UNIXProcess@2f062965
+
+[12-03 12:08:35:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] doStop(): Logstash killed.
+
+[12-03 12:08:37:INFO oracle.apiplatform.analytics.agent.OcsgAnalyticsCoordinator] init(): Initializing AgentTaskRunner
+
+[12-03 12:08:37:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] run(): Unpacking analytics home...
+
+[12-03 12:08:37:INFO oracle.apiplatform.analytics.agent.common.BufferedWriterController] processUpdatedProperties(): Reinitializing BufferedWriter.
+
+[12-03 12:08:37:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for LogFileCopyTruncater detected.
+
+[12-03 12:08:37:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for LogFilePurger detected.
+
+[12-03 12:08:37:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for Adr2LogFilePurger detected.
+
+[12-03 12:08:37:INFO oracle.apiplatform.analytics.agent.OcsgMetricsConsumerController] processUpdatedProperties(): Updated properties for OcsgMetricsCollector detected.  Updating JMSListener.
+
+[12-03 12:08:37:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for OcsgManagementCallsFactory detected.
+
+[12-03 12:08:37:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] processUpdatedProperties(): Updated properties for LogstashProcessController detected.  Triggering start/restart.
+
+[12-03 12:08:37:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] updateProperties(): Rescheduling timer task for AgentTaskRunner to: 15000
+
+[12-03 12:08:37:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] run(): ConfigManager has updated all required properties.  Running all agent tasks...
+
+[12-03 12:08:37:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] startLogstash(): Starting Logstash...
+
+[12-03 12:08:39:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] startLogstash(): Logstash started at 2022-12-03T00:08:39.083-0600: java.lang.UNIXProcess@2c8a01e7
+
+[12-03 12:16:22:INFO oracle.apiplatform.analytics.agent.OcsgAnalyticsCoordinator] init(): Initializing AgentTaskRunner
+
+[12-03 12:16:22:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] run(): Unpacking analytics home...
+
+[12-03 12:16:22:INFO oracle.apiplatform.analytics.agent.common.BufferedWriterController] processUpdatedProperties(): Reinitializing BufferedWriter.
+
+[12-03 12:16:22:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for LogFileCopyTruncater detected.
+
+[12-03 12:16:22:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for LogFilePurger detected.
+
+[12-03 12:16:22:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for Adr2LogFilePurger detected.
+
+[12-03 12:16:22:INFO oracle.apiplatform.analytics.agent.OcsgMetricsConsumerController] processUpdatedProperties(): Updated properties for OcsgMetricsCollector detected.  Updating JMSListener.
+
+[12-03 12:16:22:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for OcsgManagementCallsFactory detected.
+
+[12-03 12:16:22:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] processUpdatedProperties(): Updated properties for LogstashProcessController detected.  Triggering start/restart.
+
+[12-03 12:16:22:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] updateProperties(): Rescheduling timer task for AgentTaskRunner to: 15000
+
+[12-03 12:16:22:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] run(): ConfigManager has updated all required properties.  Running all agent tasks...
+
+[12-03 12:16:22:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] startLogstash(): Starting Logstash...
+
+[12-03 12:16:25:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] startLogstash(): Logstash started at 2022-12-03T00:16:25.389-0600: java.lang.UNIXProcess@4d253870
+
+[12-03 12:19:23:INFO oracle.apiplatform.analytics.agent.OcsgAnalyticsCoordinator] cleanup(): Stopping AgentTaskRunner
+
+[12-03 12:19:23:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] stopRunner(): cancelled AgentTaskRunner timer task
+
+[12-03 12:19:23:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] stopRunner(): calling doStop() on all AgentTasks
+
+[12-03 12:19:23:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] doStop(): Killing _logstashProcess=java.lang.UNIXProcess@4d253870
+
+[12-03 12:19:31:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] doStop(): Logstash killed.
+
+[12-03 12:19:32:INFO oracle.apiplatform.analytics.agent.OcsgAnalyticsCoordinator] init(): Initializing AgentTaskRunner
+
+[12-03 12:19:32:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] run(): Unpacking analytics home...
+
+[12-03 12:19:32:INFO oracle.apiplatform.analytics.agent.common.BufferedWriterController] processUpdatedProperties(): Reinitializing BufferedWriter.
+
+[12-03 12:19:32:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for LogFileCopyTruncater detected.
+
+[12-03 12:19:32:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for LogFilePurger detected.
+
+[12-03 12:19:32:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for Adr2LogFilePurger detected.
+
+[12-03 12:19:32:INFO oracle.apiplatform.analytics.agent.OcsgMetricsConsumerController] processUpdatedProperties(): Updated properties for OcsgMetricsCollector detected.  Updating JMSListener.
+
+[12-03 12:19:32:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for OcsgManagementCallsFactory detected.
+
+[12-03 12:19:32:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] processUpdatedProperties(): Updated properties for LogstashProcessController detected.  Triggering start/restart.
+
+[12-03 12:19:32:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] updateProperties(): Rescheduling timer task for AgentTaskRunner to: 15000
+
+[12-03 12:19:32:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] run(): ConfigManager has updated all required properties.  Running all agent tasks...
+
+[12-03 12:19:32:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] startLogstash(): Starting Logstash...
+
+[12-03 12:19:33:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] startLogstash(): Logstash started at 2022-12-03T00:19:33.603-0600: java.lang.UNIXProcess@2cce1cd8
+
+[12-03 03:11:43:INFO oracle.apiplatform.analytics.agent.OcsgAnalyticsCoordinator] init(): Initializing AgentTaskRunner
+
+[12-03 03:11:44:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] run(): Unpacking analytics home...
+
+[12-03 03:11:44:INFO oracle.apiplatform.analytics.agent.common.BufferedWriterController] processUpdatedProperties(): Reinitializing BufferedWriter.
+
+[12-03 03:11:44:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for LogFileCopyTruncater detected.
+
+[12-03 03:11:44:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for LogFilePurger detected.
+
+[12-03 03:11:44:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for Adr2LogFilePurger detected.
+
+[12-03 03:11:44:INFO oracle.apiplatform.analytics.agent.OcsgMetricsConsumerController] processUpdatedProperties(): Updated properties for OcsgMetricsCollector detected.  Updating JMSListener.
+
+[12-03 03:11:44:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for OcsgManagementCallsFactory detected.
+
+[12-03 03:11:44:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] processUpdatedProperties(): Updated properties for LogstashProcessController detected.  Triggering start/restart.
+
+[12-03 03:11:44:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] updateProperties(): Rescheduling timer task for AgentTaskRunner to: 15000
+
+[12-03 03:11:44:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] run(): ConfigManager has updated all required properties.  Running all agent tasks...
+
+[12-03 03:11:44:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] startLogstash(): Starting Logstash...
+
+[12-03 03:11:45:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] startLogstash(): Logstash started at 2022-12-03T15:11:45.796-0600: java.lang.UNIXProcess@60ff4537
+
+[12-17 12:19:40:INFO oracle.apiplatform.analytics.agent.common.Adr2LogFilePurger] purgeAdr2LogFiles(): deleting ADR2 log ADR2_2022-12-03-06-00.flush.log since it has been consumed and expired.
+
+[12-17 03:05:40:INFO oracle.apiplatform.analytics.agent.common.Adr2LogFilePurger] purgeAdr2LogFiles(): deleting ADR2 log ADR2_2022-12-03-21-00.flush.log since it has been consumed and expired.
+
+[12-17 03:13:10:INFO oracle.apiplatform.analytics.agent.common.Adr2LogFilePurger] purgeAdr2LogFiles(): deleting ADR2 log ADR2_2022-12-03-00-00.log since it has been consumed and expired.
+
+[01-04 11:27:38:INFO oracle.apiplatform.analytics.agent.common.Adr2LogFilePurger] purgeAdr2LogFiles(): deleting ADR2 log ADR2_2022-12-21-00-00.log since it has been consumed and expired.
+
+[02-28 06:42:05:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] startLogstash(): Starting Logstash...
+
+[02-28 06:42:06:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] startLogstash(): Logstash started at 2023-02-28T18:42:06.704-0600: java.lang.UNIXProcess@6b015163
+
+[02-28 06:42:13:INFO oracle.apiplatform.analytics.agent.OcsgAnalyticsCoordinator] cleanup(): Stopping AgentTaskRunner
+
+[02-28 06:42:13:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] stopRunner(): cancelled AgentTaskRunner timer task
+
+[02-28 06:42:13:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] stopRunner(): calling doStop() on all AgentTasks
+
+[02-28 06:42:13:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] doStop(): Killing _logstashProcess=java.lang.UNIXProcess@6b015163
+
+[02-28 06:42:14:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] doStop(): Logstash killed.
+
+[03-03 12:50:23:INFO oracle.apiplatform.analytics.agent.OcsgAnalyticsCoordinator] init(): Initializing AgentTaskRunner
+
+[03-03 12:50:23:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] run(): Unpacking analytics home...
+
+[03-03 12:50:23:INFO oracle.apiplatform.analytics.agent.common.BufferedWriterController] processUpdatedProperties(): Reinitializing BufferedWriter.
+
+[03-03 12:50:23:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for LogFileCopyTruncater detected.
+
+[03-03 12:50:23:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for LogFilePurger detected.
+
+[03-03 12:50:23:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for Adr2LogFilePurger detected.
+
+[03-03 12:50:23:INFO oracle.apiplatform.analytics.agent.OcsgMetricsConsumerController] processUpdatedProperties(): Updated properties for OcsgMetricsCollector detected.  Updating JMSListener.
+
+[03-03 12:50:23:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for OcsgManagementCallsFactory detected.
+
+[03-03 12:50:23:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] processUpdatedProperties(): Updated properties for LogstashProcessController detected.  Triggering start/restart.
+
+[03-03 12:50:23:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] updateProperties(): Rescheduling timer task for AgentTaskRunner to: 15000
+
+[03-03 12:50:23:INFO oracle.apiplatform.analytics.agent.common.AgentTaskRunner] run(): ConfigManager has updated all required properties.  Running all agent tasks...
+
+[03-03 12:50:23:INFO oracle.apiplatform.analytics.agent.common.Adr2LogFilePurger] purgeAdr2LogFiles(): deleting ADR2 log ADR2_2023-02-16-00-00.log since it has expired.
+
+[03-03 12:50:23:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] startLogstash(): Starting Logstash...
+
+[03-03 12:50:25:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] startLogstash(): Logstash started at 2023-03-03T12:50:25.404-0600: java.lang.UNIXProcess@2fe38891
+
+[03-14 06:42:03:INFO oracle.apiplatform.analytics.agent.common.Adr2LogFilePurger] purgeAdr2LogFiles(): deleting ADR2 log ADR2_2023-03-01-00-00.flush.log since it has been consumed and expired.
+
+[03-17 12:51:21:INFO oracle.apiplatform.analytics.agent.common.Adr2LogFilePurger] purgeAdr2LogFiles(): deleting ADR2 log ADR2_2023-03-03-00-00.log since it has been consumed and expired.
+
+[03-22 02:35:09:INFO oracle.apiplatform.analytics.agent.common.AgentTask] processUpdatedProperties(): Updated properties for OcsgManagementCallsFactory detected.
+
+[03-22 02:35:09:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] processUpdatedProperties(): Updated properties for LogstashProcessController detected.  Triggering start/restart.
+
+[03-22 02:35:09:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] doStop(): Killing _logstashProcess=java.lang.UNIXProcess@2fe38891
+
+[03-22 02:35:19:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] doStop(): Logstash killed.
+
+[03-22 02:35:19:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] startLogstash(): Starting Logstash...
+
+[03-22 02:35:21:INFO oracle.apiplatform.analytics.agent.common.LogstashProcessController] startLogstash(): Logstash started at 2023-03-22T14:35:21.113-0600: java.lang.UNIXProcess@37ccad29
+
+[04-05 03:35:20:INFO oracle.apiplatform.analytics.agent.common.Adr2LogFilePurger] purgeAdr2LogFiles(): deleting ADR2 log ADR2_2023-03-22-20-00.flush.log since it has been consumed and expired.
+
